@@ -1,0 +1,8 @@
+import random                                                                                                                                                                         
+fh = open("input","r")                                                                                                                                                                
+input= fh.readlines()                                                                                                                                                                 
+print input                                                                                                                                                                           
+output = random.shuffle(input)                                                                                                                                                        
+print input                                                                                                                                                                           
+wr = open("output","a")                                                                                                                                                               
+wr.writelines(input)
